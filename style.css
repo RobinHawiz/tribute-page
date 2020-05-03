@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+#main {
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+#img-div {
+  height: 100vh;
+  width: 100%;
+}
+
+#image {
+  background-image: url("https://i.ytimg.com/vi/YKoQDv2IIgQ/maxresdefault.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#title {
+  position: absolute;
+  font-size: 3rem;
+  color: white;
+  left: 20%;
+  top: 30%;
+}
