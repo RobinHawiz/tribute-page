@@ -8,9 +8,6 @@ body {
   font-size: 62.5%;
 }
 
-#main {
-}
-
 .hero-section {
   display: flex;
   justify-content: center;
@@ -29,13 +26,25 @@ body {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  pointer-events: none;
+  user-select: none;
+}
+
+.image-text {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
 #title {
-  position: absolute;
   font-size: 3rem;
   color: white;
-  left: 20%;
-  top: 30%;
+}
+
+#img-caption {
+  font-size: 2rem;
+  color: white;
 }
