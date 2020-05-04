@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-div {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+}
+
+#image {
+  background-image: url("https://i.ytimg.com/vi/YKoQDv2IIgQ/maxresdefault.jpg");
+  background-size: 100% 100%;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  max-height: calc(72rem / 2);
+  max-width: calc(128rem / 2);
+  background-repeat: no-repeat;
+  user-select: none;
+  display: block;
+  margin: auto;
+}
+
+.image-text {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+#title {
+  font-size: 2rem;
+  color: white;
+}
+
+#img-caption {
+  font-size: 1rem;
+  color: white;
+}
+
+#tribute-info {
+  width: 50%;
+  margin: auto;
+}
